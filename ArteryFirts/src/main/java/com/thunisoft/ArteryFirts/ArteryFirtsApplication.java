@@ -37,7 +37,7 @@ public class ArteryFirtsApplication {
      * @version 1.0.0
      **/
     public static void main(String[] args) {
-        //这是master的修改，本地看看冲不冲突
+        //这是master的修改，本地看看冲不冲突，再次试验
     	SpringApplication.run(ArteryFirtsApplication.class, args);
     }
 }
