@@ -1,0 +1,349 @@
+2020-09-29 17:21:17 [INFO ] [main ] c.t.A.ArteryFirtsApplication - Starting ArteryFirtsApplication on DESKTOP-SMTBBG0 with PID 15044 (D:\generator\ArteryFirts\target\classes started by Thunisoft in D:\generator\ArteryFirts)
+2020-09-29 17:21:17 [INFO ] [main ] c.t.A.ArteryFirtsApplication - The following profiles are active: dev
+2020-09-29 17:21:19 [INFO ] [main ] c.t.a.s.p.e.p.ArteryEncryptPropertiesPostProcessor - 开始处理PropertySource
+2020-09-29 17:21:19 [INFO ] [main ] c.t.a.d.c.i.DictCache - 【开始加载数据字典缓存...】
+2020-09-29 17:21:20 [INFO ] [main ] c.t.a.d.c.i.DictCache - 数据字典表个数：9
+2020-09-29 17:21:20 [INFO ] [main ] c.t.a.d.c.i.DictCache - 〖加载数据字典缓存结束〗
+2020-09-29 17:21:20 [ERROR] [main ] c.a.d.p.DruidDataSource - testWhileIdle is true, validationQuery not set
+2020-09-29 17:21:21 [WARN ] [main ] c.t.t.s.AbstractConnector - Ignoring deprecated socket close linger time
+2020-09-29 17:21:22 [INFO ] [main ] c.t.t.server.Server - tas-9.4.z-SNAPSHOT; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_261-b12
+2020-09-29 17:21:22 [INFO ] [main ] c.t.t.s.h.C.application - Initializing Spring embedded WebApplicationContext
+2020-09-29 17:21:22 [INFO ] [main ] c.t.t.server.session - DefaultSessionIdManager workerName=node0
+2020-09-29 17:21:22 [INFO ] [main ] c.t.t.server.session - No SessionScavenger set, using defaults
+2020-09-29 17:21:22 [INFO ] [main ] c.t.t.server.session - node0 Scavenging every 660000ms
+2020-09-29 17:21:22 [INFO ] [main ] c.t.t.s.h.ContextHandler - Started c.t.t.s.a.s.TasEmbeddedWebAppContext@7adbec34{application,/,[file:///C:/Users/Thunisoft/AppData/Local/Temp/jetty-docbase.3797305706615596506.8080/, jar:file:/C:/Users/Thunisoft/.m2/repository/com/thunisoft/artery/artery-component/6.1.6/artery-component-6.1.6.jar!/META-INF/resources, jar:file:/C:/Users/Thunisoft/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2020-09-29 17:21:22 [INFO ] [main ] c.t.t.server.Server - Started @10939ms
+2020-09-29 17:21:23 [WARN ] [main ] c.t.a.i.MapperInitializer - 从DataSource中解析dialect信息失败，请在配置文件中通过artery.page.dialect指定。
+2020-09-29 17:21:26 [INFO ] [main ] c.t.s.c.ClientMain - 【sqlfx日志】成功启动客户端！
+2020-09-29 17:21:27 [INFO ] [main ] c.t.t.s.h.C.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-29 17:21:27 [INFO ] [main ] c.t.t.s.AbstractConnector - Started ServerConnector@6c9151c1{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-09-29 17:21:27 [INFO ] [main ] c.t.t.s.a.s.TasWebServer - Tas 启动成功，端口号： 8080 (http/1.1), contextPath: '/'
+2020-09-29 17:21:27 [INFO ] [main ] c.t.A.ArteryFirtsApplication - Started ArteryFirtsApplication in 12.962 seconds (JVM running for 15.74)
+2020-09-29 17:21:27 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:27 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:28 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:28 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:29 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:29 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:30 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:30 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:31 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:31 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:32 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:33 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:33 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:34 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:34 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:35 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:35 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:36 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:36 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:37 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:37 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:38 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:38 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:39 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:21:39 [ERROR] [Druid-ConnectionPool-Create-345099628] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ABase://IP:PORT/DATABASE, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ABase://IP:PORT/DATABASE, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:22:46 [INFO ] [main ] c.t.A.ArteryFirtsApplication - Starting ArteryFirtsApplication on DESKTOP-SMTBBG0 with PID 2188 (D:\generator\ArteryFirts\target\classes started by Thunisoft in D:\generator\ArteryFirts)
+2020-09-29 17:22:46 [INFO ] [main ] c.t.A.ArteryFirtsApplication - The following profiles are active: dev
+2020-09-29 17:22:57 [INFO ] [main ] c.t.a.s.p.e.p.ArteryEncryptPropertiesPostProcessor - 开始处理PropertySource
+2020-09-29 17:22:58 [INFO ] [main ] c.t.a.d.c.i.DictCache - 【开始加载数据字典缓存...】
+2020-09-29 17:23:35 [INFO ] [main ] c.t.a.d.c.i.DictCache - 数据字典表个数：9
+2020-09-29 17:23:35 [INFO ] [main ] c.t.a.d.c.i.DictCache - 〖加载数据字典缓存结束〗
+2020-09-29 17:23:35 [ERROR] [main ] c.a.d.p.DruidDataSource - testWhileIdle is true, validationQuery not set
+2020-09-29 17:23:38 [WARN ] [main ] c.t.t.s.AbstractConnector - Ignoring deprecated socket close linger time
+2020-09-29 17:23:38 [INFO ] [main ] c.t.t.server.Server - tas-9.4.z-SNAPSHOT; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_261-b12
+2020-09-29 17:23:38 [INFO ] [main ] c.t.t.s.h.C.application - Initializing Spring embedded WebApplicationContext
+2020-09-29 17:23:39 [INFO ] [main ] c.t.t.server.session - DefaultSessionIdManager workerName=node0
+2020-09-29 17:23:39 [INFO ] [main ] c.t.t.server.session - No SessionScavenger set, using defaults
+2020-09-29 17:23:39 [INFO ] [main ] c.t.t.server.session - node0 Scavenging every 600000ms
+2020-09-29 17:23:39 [INFO ] [main ] c.t.t.s.h.ContextHandler - Started c.t.t.s.a.s.TasEmbeddedWebAppContext@72bdbfe9{application,/,[file:///C:/Users/Thunisoft/AppData/Local/Temp/jetty-docbase.8939260804827831399.8080/, jar:file:/C:/Users/Thunisoft/.m2/repository/com/thunisoft/artery/artery-component/6.1.6/artery-component-6.1.6.jar!/META-INF/resources, jar:file:/C:/Users/Thunisoft/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2020-09-29 17:23:39 [INFO ] [main ] c.t.t.server.Server - Started @72841ms
+2020-09-29 17:24:09 [INFO ] [main ] c.t.s.c.ClientMain - 【sqlfx日志】成功启动客户端！
+2020-09-29 17:24:14 [INFO ] [main ] c.t.t.s.h.C.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-29 17:24:14 [INFO ] [main ] c.t.t.s.AbstractConnector - Started ServerConnector@27fc0217{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-09-29 17:24:14 [INFO ] [main ] c.t.t.s.a.s.TasWebServer - Tas 启动成功，端口号： 8080 (http/1.1), contextPath: '/'
+2020-09-29 17:24:14 [INFO ] [main ] c.t.A.ArteryFirtsApplication - Started ArteryFirtsApplication in 88.984 seconds (JVM running for 107.668)
+2020-09-29 17:24:14 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:14 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:14 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:15 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:15 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:18 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:19 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:19 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:22 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:22 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:23 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:23 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:24 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:24 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:25 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:25 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:26 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:26 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:27 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:27 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:28 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:28 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:29 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:29 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:30 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:30 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:31 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:31 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:24:32 [ERROR] [Druid-ConnectionPool-Create-388064773] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:16 [INFO ] [main ] c.t.A.ArteryFirtsApplication - Starting ArteryFirtsApplication on DESKTOP-SMTBBG0 with PID 13740 (D:\generator\ArteryFirts\target\classes started by Thunisoft in D:\generator\ArteryFirts)
+2020-09-29 17:25:16 [INFO ] [main ] c.t.A.ArteryFirtsApplication - The following profiles are active: dev
+2020-09-29 17:25:18 [INFO ] [main ] c.t.a.s.p.e.p.ArteryEncryptPropertiesPostProcessor - 开始处理PropertySource
+2020-09-29 17:25:18 [INFO ] [main ] c.t.a.d.c.i.DictCache - 【开始加载数据字典缓存...】
+2020-09-29 17:25:19 [INFO ] [main ] c.t.a.d.c.i.DictCache - 数据字典表个数：9
+2020-09-29 17:25:19 [INFO ] [main ] c.t.a.d.c.i.DictCache - 〖加载数据字典缓存结束〗
+2020-09-29 17:25:19 [ERROR] [main ] c.a.d.p.DruidDataSource - testWhileIdle is true, validationQuery not set
+2020-09-29 17:25:20 [WARN ] [main ] c.t.t.s.AbstractConnector - Ignoring deprecated socket close linger time
+2020-09-29 17:25:20 [INFO ] [main ] c.t.t.server.Server - tas-9.4.z-SNAPSHOT; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_261-b12
+2020-09-29 17:25:20 [INFO ] [main ] c.t.t.s.h.C.application - Initializing Spring embedded WebApplicationContext
+2020-09-29 17:25:21 [INFO ] [main ] c.t.t.server.session - DefaultSessionIdManager workerName=node0
+2020-09-29 17:25:21 [INFO ] [main ] c.t.t.server.session - No SessionScavenger set, using defaults
+2020-09-29 17:25:21 [INFO ] [main ] c.t.t.server.session - node0 Scavenging every 600000ms
+2020-09-29 17:25:21 [INFO ] [main ] c.t.t.s.h.ContextHandler - Started c.t.t.s.a.s.TasEmbeddedWebAppContext@77ebc9e6{application,/,[file:///C:/Users/Thunisoft/AppData/Local/Temp/jetty-docbase.3967621407147493662.8080/, jar:file:/C:/Users/Thunisoft/.m2/repository/com/thunisoft/artery/artery-component/6.1.6/artery-component-6.1.6.jar!/META-INF/resources, jar:file:/C:/Users/Thunisoft/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources],AVAILABLE}
+2020-09-29 17:25:21 [INFO ] [main ] c.t.t.server.Server - Started @6599ms
+2020-09-29 17:25:25 [INFO ] [main ] c.t.s.c.ClientMain - 【sqlfx日志】成功启动客户端！
+2020-09-29 17:25:26 [INFO ] [main ] c.t.t.s.h.C.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-29 17:25:26 [INFO ] [main ] c.t.t.s.AbstractConnector - Started ServerConnector@4583b617{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-09-29 17:25:26 [INFO ] [main ] c.t.t.s.a.s.TasWebServer - Tas 启动成功，端口号： 8080 (http/1.1), contextPath: '/'
+2020-09-29 17:25:26 [INFO ] [main ] c.t.A.ArteryFirtsApplication - Started ArteryFirtsApplication in 10.238 seconds (JVM running for 11.627)
+2020-09-29 17:25:26 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:26 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:26 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:27 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:27 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:28 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:28 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:29 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:29 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:30 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:30 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:31 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:31 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:32 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:32 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:33 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:33 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)
+2020-09-29 17:25:34 [ERROR] [Druid-ConnectionPool-Create-1318538142] c.a.d.p.DruidDataSource - create connection SQLException, url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, errorCode 0, state null
+java.sql.SQLException: connect error, url jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba, driverClass net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1627)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468)

@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    name: dataSource
+    url: jdbc:log4jdbc:ArteryBase://172.23.27.57:5432/gx_zhfy?Charset=utf8&ApplicationName=zhfy_znba
+    username: sa
+    password: tusc@6789#JKL
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+  application:
+    name: ArteryFirts
+
+
+
