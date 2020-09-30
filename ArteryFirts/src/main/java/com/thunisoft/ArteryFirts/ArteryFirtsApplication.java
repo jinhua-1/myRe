@@ -37,6 +37,7 @@ public class ArteryFirtsApplication {
      * @version 1.0.0
      **/
     public static void main(String[] args) {
+        //这是master的修改
     	SpringApplication.run(ArteryFirtsApplication.class, args);
     }
 }
